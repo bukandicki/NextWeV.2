@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&family=Roboto&display=swap');
+
+* {
+	font-family: 'Poppins', 'Roboto';
+}
+
+.row a {
+	text-decoration: none;
+	color: #000;
+}
+
+.row a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-weight: 500;
+	color: rgba(53,54,58,.9) !important;
+}
+
+.size {
+
+}
+
+.nav-right li.nav-item {
+	margin-right: .8em;
+}
+
+.size span {
+	font-size: .9em;
+	margin-right: .6em;
+	font-weight: 700;
+}
+
+.size span.oos {
+	color: #afafaf;
+	position: relative;
+}
+
+.size span.oos:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -2px;
+	left: 6px;
+	width: 1.3px;
+	height: 20px;
+	transform: rotate(-45deg);
+	background: #afafaf;
+}
+
+hr {
+	
+}
+
+.label-info-product {
+	z-index: 1;
+}
+
+.label-info-product span {
+	padding: .3em;
+	padding-left: .7em;
+	padding-right: .7em;
+	border-radius: 10px;
+	color: #fff;
+	font-size: .7em;
+	font-weight: 700;
+	background: red;
+}
+
+.label-info-product span.label-disc {
+ background: rgba(47, 168, 72, .8);
+}
+
+.label-info-product span.label-new {
+ background: rgba(0, 136, 221, .8);
+}
+
+.label-info-product span.label-limited {
+ background: rgba(237, 41, 56, .8);
+}
+
+.card {
+	position: relative;
+	overflow: hidden;
+}
+
+.card img.card-img-top {
+	transition: all ease-out 250ms;
+}
+
+a.product:hover > .card img.card-img-top {
+	transform: scale(1.050);
+}
+
+.fav-button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: transparent;
+}
+
+/* Index */
+
+.home-slider {
+	position: relative;
+}
+
+.slick-prev{
+	background: red !important;
+	left: 200px !important;
+}
+
+.slick-next {
+	background: red !important;
+	right: 200px !important;
+}
